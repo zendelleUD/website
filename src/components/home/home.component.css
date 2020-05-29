@@ -1,42 +1,59 @@
-#landing_row{
+/* #landing_row{
     height: 70vh;
     width: 100vw;
     margin: 0;
     background-image: url(/assets/Goddess-Cafe.jpg);
     background-size: cover;
+} */
+
+#mantra_row{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(/assets/Goddess-Cafe.jpg);
+    background-size: cover;
+}
+
+#mantra_col{
+
+    width: 491px;
+    height: 133px;
+
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #B1B6A6;
+
+
+    /* background-color: antiquewhite; */
 }
 
 
 
-#mantra{
-    
-    
-/* TEXT BOX */
-width: 491px;
-height: 133px;
-
-/* TEXT FORMAT */
-font-family: Sarabun;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 62px;
-display: inline-block;
-color: #B1B6A6;
-text-align: center;
-
-/* POSITION */
-top: 50%;   
-left: 35%;
-}
-
-
-#philosophy_container{
+#philosophy_row{
 
     width: 100vw;  
     height: 30vh;
     background-color: #819595;
+
+}
+
+#phil_title{
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
     text-align: center;
+
+    color: #363946;
+}
+
+
+#philosophy_col{
+
 
 }
 
@@ -61,9 +78,7 @@ left: 35%;
     font-weight: normal;
     font-size: 26px;
     line-height: 34px;
-    display: flex;
-    align-items: center;
     text-align: center;
 
     color: #363946;
-}
+} 

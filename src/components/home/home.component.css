@@ -5,6 +5,9 @@
     background-image: url(/assets/Goddess-Cafe.jpg);
     background-size: cover;
 } */
+.container{
+    width: 100vw;
+}
 
 #mantra_row{
     width: 100vw;
@@ -51,26 +54,6 @@
     color: #363946;
 }
 
-
-#philosophy_col{
-
-
-}
-
-#philosophy_container #title{
-    font-family: Sarabun;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    left: 45%;
-    color: #363946;
-}
-
  #quote{
 
     font-family: Sarabun;
@@ -82,3 +65,54 @@
 
     color: #363946;
 } 
+
+
+
+#passions_row{
+    width: 100vw;  
+    height: 70vh;
+    background-color: #819595;
+    
+}
+
+#passions_title{
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+#udfsa{
+    height: 20%;
+
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+    color: #B1B6A6;
+
+
+    background-image: url(/assets/CN-2019-Pic.jpg);
+    background-position: 60%;
+    background-size: cover;
+
+}
+
+#RA{
+
+    height: 20%;
+
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+    color: #B1B6A6;
+
+
+    background-image: url(/assets/South-Academy-Staff.JPG);
+    background-position: 5%;
+    background-size: cover;
+}

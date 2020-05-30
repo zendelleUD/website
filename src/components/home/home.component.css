@@ -5,6 +5,12 @@
     background-image: url(/assets/Goddess-Cafe.jpg);
     background-size: cover;
 } */
+
+hr{
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.653);
+}
+
 .container{
     width: 100vw;
 }
@@ -121,7 +127,7 @@
 #project_row{
 
     width: 100vw;
-    height: 60vh;
+    /* height: 60vh; */
 
     background-color: #819595;
 
@@ -136,28 +142,40 @@
     font-size: 48px;
     line-height: 62px;
 
-    background-color: #363946;
+    /* background-color: #363946; */
 }
 
-.cus_col{
+/* .cus_col{
     width: 45%;
     height: 90%;
-    /* background-color: #363946; */
+    background-color: #363946;
 
+} */
+
+
+#project_container{
+    width: 100vw;
+    height: 20vh;
+    background-color: #819595;
 }
-
 
 #shell_proj{
 
-    width: 75%;
-    height: 75%;
-    background-color: aliceblue;
+    height: 80%;
+    /* background-color: aliceblue; */
+    background-image: url(/assets/c_lang.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 #web_proj{
-    width: 75%;
-    height: 75%;
-    background-color: aliceblue;
+    height: 80%;
+    /* background-color: aliceblue; */
+    background-image: url(/assets/MEAN.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 
@@ -176,7 +194,7 @@
     font-size: 48px;
     line-height: 62px;
 
-    background-color: #363946;
+    /* background-color: #363946; */
 }
 
 #experience_container{

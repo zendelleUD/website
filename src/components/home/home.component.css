@@ -70,7 +70,7 @@
 
 #passions_row{
     width: 100vw;  
-    height: 70vh;
+    height: 40vh;
     background-color: #819595;
     
 }
@@ -115,4 +115,72 @@
     background-image: url(/assets/South-Academy-Staff.JPG);
     background-position: 5%;
     background-size: cover;
+}
+
+
+#project_row{
+
+    width: 100vw;
+    height: 60vh;
+
+    background-color: #819595;
+
+
+}
+
+#project_title{
+    width: 100%;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+
+    background-color: #363946;
+}
+
+.cus_col{
+    width: 45%;
+    height: 90%;
+    /* background-color: #363946; */
+
+}
+
+
+#shell_proj{
+
+    width: 75%;
+    height: 75%;
+    background-color: aliceblue;
+}
+
+#web_proj{
+    width: 75%;
+    height: 75%;
+    background-color: aliceblue;
+}
+
+
+#experience_title_row{
+    width: 100vw;
+    /* height: 40vh; */
+    background-color: #819595;
+
+}
+
+#experience_title{
+    width: 100%;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+
+    background-color: #363946;
+}
+
+#experience_container{
+    height: 50vh;
+    width: 100vw;
+     background-color: #819595;
 }

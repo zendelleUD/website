@@ -26,14 +26,14 @@ hr{
 
     width: 491px;
     height: 133px;
-
-    font-family: Sarabun;
+    font-family:  Helvetica;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
     line-height: 62px;
     text-align: center;
     color: #B1B6A6;
+    background-color: rgba(0, 0, 0, 0.4)
 
 
     /* background-color: antiquewhite; */
@@ -45,7 +45,7 @@ hr{
 
     width: 100vw;  
     height: 30vh;
-    background-color: #819595;
+    background-color: #ffffff;
 
 }
 
@@ -77,7 +77,7 @@ hr{
 #passions_row{
     width: 100vw;  
     height: 40vh;
-    background-color: #819595;
+    background-color: #ffffff;
     
 }
 
@@ -87,6 +87,7 @@ hr{
     font-weight: normal;
     font-size: 48px;
     line-height: 62px;
+    color: #363946;
 }
 
 #udfsa{
@@ -129,7 +130,7 @@ hr{
     width: 100vw;
     /* height: 60vh; */
 
-    background-color: #819595;
+    background-color: #ffffff;
 
 
 }
@@ -156,13 +157,14 @@ hr{
 #project_container{
     width: 100vw;
     height: 20vh;
-    background-color: #819595;
+    background-color: #ffffff;
+    color:#363946;
 }
 
 #shell_proj{
 
     height: 80%;
-    /* background-color: aliceblue; */
+    /* background-color:; */
     background-image: url(/assets/c_lang.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -182,7 +184,7 @@ hr{
 #experience_title_row{
     width: 100vw;
     /* height: 40vh; */
-    background-color: #819595;
+    background-color: #ffffff;
 
 }
 
@@ -193,6 +195,7 @@ hr{
     font-weight: normal;
     font-size: 48px;
     line-height: 62px;
+    color:#363946;
 
     /* background-color: #363946; */
 }
@@ -200,5 +203,5 @@ hr{
 #experience_container{
     height: 50vh;
     width: 100vw;
-     background-color: #819595;
+     background-color: #ffffff;
 }

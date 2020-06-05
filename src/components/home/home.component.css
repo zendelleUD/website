@@ -12,196 +12,51 @@ hr{
 }
 
 .container{
-    width: 100vw;
+    width: 100vw;    
+    margin: 0;
+
 }
 
-#mantra_row{
+#landing{
+    margin: 0;
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     background-image: url(/assets/Goddess-Cafe.jpg);
     background-size: cover;
+    /* background-position-y:; */
+    background-color: black;
+
 }
 
-#mantra_col{
+#landing_text_c{
+    height: 50%;
+    background-color: #DAEFED;
 
-    width: 491px;
-    height: 133px;
-    font-family:  Helvetica;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-    text-align: center;
-    color: #B1B6A6;
-    background-color: rgba(0, 0, 0, 0.4)
-
-
-    /* background-color: antiquewhite; */
-}
-
-
-
-#philosophy_row{
-
-    width: 100vw;  
-    height: 30vh;
-    background-color: #ffffff;
-
-}
-
-#phil_title{
-    font-family: Sarabun;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
+    font-size: 64px;
+    line-height: 82px;
     text-align: center;
 
-    color: #363946;
+    color: #000000;
+
 }
 
- #quote{
-
-    font-family: Sarabun;
+.name{
     font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 34px;
-    text-align: center;
-
-    color: #363946;
-} 
-
-
-
-#passions_row{
-    width: 100vw;  
-    height: 40vh;
-    background-color: #ffffff;
-    
-}
-
-#passions_title{
-    font-family: Sarabun;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-    color: #363946;
-}
-
-#udfsa{
-    height: 20%;
-
-    font-family: Sarabun;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-    color: #B1B6A6;
-
-
-    background-image: url(/assets/CN-2019-Pic.jpg);
-    background-position: 60%;
-    background-size: cover;
+font-weight: 500;
+font-size: 90px;
+line-height: 135px;
+text-align: center;
+letter-spacing: 0.02em;
 
 }
 
-#RA{
-
-    height: 20%;
-
-    font-family: Sarabun;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-    color: #B1B6A6;
-
-
-    background-image: url(/assets/South-Academy-Staff.JPG);
-    background-position: 5%;
-    background-size: cover;
-}
-
-
-#project_row{
-
-    width: 100vw;
-    /* height: 60vh; */
-
-    background-color: #ffffff;
-
-
-}
-
-#project_title{
-    width: 100%;
-    font-family: Sarabun;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-
-    /* background-color: #363946; */
-}
-
-/* .cus_col{
-    width: 45%;
-    height: 90%;
-    background-color: #363946;
-
-} */
-
-
-#project_container{
-    width: 100vw;
-    height: 20vh;
-    background-color: #ffffff;
-    color:#363946;
-}
-
-#shell_proj{
-
-    height: 80%;
-    /* background-color:; */
-    background-image: url(/assets/c_lang.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-#web_proj{
-    height: 80%;
-    /* background-color: aliceblue; */
-    background-image: url(/assets/MEAN.png);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-
-#experience_title_row{
-    width: 100vw;
-    /* height: 40vh; */
-    background-color: #ffffff;
-
-}
-
-#experience_title{
-    width: 100%;
-    font-family: Sarabun;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-    color:#363946;
-
-    /* background-color: #363946; */
-}
-
-#experience_container{
-    height: 50vh;
-    width: 100vw;
-     background-color: #ffffff;
+.pill{
+    padding: 1px;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    background-color: #DAEFED;
+    border-radius: 10px;
 }

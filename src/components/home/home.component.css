@@ -21,7 +21,7 @@ hr{
     margin: 0;
     width: 100vw;
     height: 60vh;
-    background-image: url(/assets/Goddess-Cafe.jpg);
+    background-image: url(/assets/WereHereforGrowth.png);
     background-size: cover;
     /* background-position-y:; */
     background-color: black;
@@ -43,6 +43,23 @@ hr{
 
 }
 
+
+.icon{
+    padding: 2rem;
+    background-color: #DAEFED;
+    border-radius: 2rem; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    margin-left: 5rem;
+
+}
+
+.skills-col{
+    height: 50%;
+}
+
+
 .name{
     font-style: normal;
 font-weight: 500;
@@ -59,4 +76,69 @@ letter-spacing: 0.02em;
     margin-top: .5rem;
     background-color: #DAEFED;
     border-radius: 10px;
+}
+
+.skills{
+    font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 160%;
+/* or 83px */
+letter-spacing: 0.1em;
+
+color: #000000;
+
+}
+
+
+
+
+
+
+.vertical{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 81px;
+    line-height: 160%;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+}
+
+#about_text{
+    /* font-family: Poppins; */
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 160%;
+/* or 35px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+}
+
+
+.phil{
+    width: 923.55px;
+height: 188.66px;
+left: 258px;
+top: 3458px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+footer{
+    
 }

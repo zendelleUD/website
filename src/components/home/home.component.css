@@ -22,7 +22,9 @@
 
 
 
-
+.row{
+    margin: 0;
+}
 
 .container{
     width: 100vw;
@@ -174,7 +176,3 @@ text-align: center;
 color: #000000;
 }
 
-
-footer{
-    
-}

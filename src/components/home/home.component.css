@@ -1,10 +1,34 @@
-/* #landing_row{
-    height: 70vh;
+
+
+@font-face{
+    font-family: Abel;
+    src: url(/assets/Fonts/Abel/Abel-Regular.ttf)
+
+}
+
+@font-face{
+    font-family: Poppins-Light;
+    src: url(/assets/Fonts/Poppins/Poppins-Light.ttf);
+
+}
+
+
+@font-face{
+    font-family: Poppins-Medium;
+    src: url(/assets/Fonts/Poppins/Poppins-Medium.ttf);
+}
+
+
+
+
+
+
+
+.container{
     width: 100vw;
-    margin: 0;
-    background-image: url(/assets/Goddess-Cafe.jpg);
-    background-size: cover;
-} */
+    margin-right: 0;
+    margin-left: 0;
+}
 
 hr{
     margin: 0;
@@ -14,7 +38,7 @@ hr{
 .container{
     width: 100vw;    
     margin: 0;
-
+    padding: 0;
 }
 
 #landing{
@@ -53,6 +77,9 @@ hr{
     background-position-x: 50%;
     margin-left: 5rem;
 
+    box-shadow: 1px 2px 2px grey;
+
+
 }
 
 .skills-col{
@@ -61,6 +88,8 @@ hr{
 
 
 .name{
+
+    font-family: Poppins-Medium;
     font-style: normal;
 font-weight: 500;
 font-size: 90px;
@@ -71,18 +100,24 @@ letter-spacing: 0.02em;
 }
 
 .pill{
+    font-family: Poppins-Light;
+    font-size: 24px;
     padding: 1px;
     margin-right: 1rem;
     margin-top: .5rem;
     background-color: #DAEFED;
     border-radius: 10px;
+    box-shadow: 1px 2px 2px grey;
+
 }
 
 .skills{
+
+    font-family: Abel;
     font-style: normal;
-font-weight: normal;
-font-size: 52px;
-line-height: 160%;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 160%;
 /* or 83px */
 letter-spacing: 0.1em;
 
@@ -134,6 +169,7 @@ line-height: 33px;
 display: flex;
 align-items: center;
 text-align: center;
+
 
 color: #000000;
 }

@@ -120,11 +120,16 @@ header, #skills{
 
 .quote{
     font-family: Abel;
-    font-size: 60px;
-    line-height: 100px;
+    font-size: 70px;
+    line-height: 90px;
     text-align: center;
 }
 
+#project_section{
+
+    height: 45vh;
+
+}
 
 #project, header{
     font-family: Poppins-Regular;
@@ -158,4 +163,16 @@ header, #skills{
 #project_img{
     width: 127px;
     height: 96px;
+}
+
+
+#about_section_title{
+    font-family: Abel;
+    font-size: 50px;
+}
+
+
+footer ,#name{
+    font-family: Abel;
+    font-size: 38px;
 }

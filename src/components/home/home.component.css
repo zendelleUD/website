@@ -28,9 +28,47 @@
     src: url(/assets/Fonts/Poppins/Poppins-SemiBold.ttf);
 }
 
-.container{
+.container, .container-fluid{
     background-color: black;
     color:#C3E9E4;
+}
+
+.icon{
+    width: 25.63px;
+    height: 19.52px;
+    background-color: #C3E9E4;
+    border-radius: 3px;
+    margin: 1rem;
+    margin-top:0;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+#top{
+    height: 30vh;
+}
+
+#top_content{
+    
+    height: 100%;
+
+}
+
+.email-icon{
+    background-image: url(/assets/email.png);
+}
+
+.pdf-icon{
+    background-image: url(/assets/pdf.png);
+}
+
+.linkedin-icon{
+    background-image: url(/assets/linked_in.png);
+}
+
+.git-icon{
+    background-image: url(/assets/github.png);
 }
 
 
@@ -39,13 +77,85 @@
     font-size: 42px;
 }
 
+#contact{
+    font-family: Poppins-SemiBold;
+    font-size: 27px;
 
+    padding-right: 15%;
+    padding-left: 15%;
+
+
+
+    color: black;
+    background-color: #C3E9E4;
+}
 
 #middle{
-    height: 70vh;
-    background-color: aliceblue;
+    height: 30vh;
+}
+
+#skills_content{
+    height: 100%;
+    /* background-color: black; */
+}
+
+header, #skills{
+    font-family: Poppins-Regular;
+    font-size: 21px;
 }
 
 
+.pill{
+
+    font-family: Poppins-Regular;
+    font-size: 12px;
+
+    background-color: #C3E9E4;
+    border-radius: 5px;
+    color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 10%;
+}
+
+.quote{
+    font-family: Abel;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+}
 
 
+#project, header{
+    font-family: Poppins-Regular;
+    font-size: 27px;
+}
+
+#project_card{
+    color: black; 
+    background-color: #C7DCDA;
+    width: 386px; 
+    height: 120px;
+
+}
+
+#project_title{
+
+    font-family: Abel;
+    font-size: 31px;
+}
+
+#project_header{
+    font-family: Poppins-Regular;
+    font-size: 13px;
+}
+
+#project_text{
+    font-family: Poppins-Regular;
+    font-size: 10px;
+}
+
+#project_img{
+    width: 127px;
+    height: 96px;
+}

@@ -7,7 +7,7 @@
 
         <section class="row align-items-center ml-5 " id="top_content">
             <article class="col-8" >
-                <div class="row" id="name">Zendelle Badiang</div>
+                <div class="row" id="name" >Zendelle Badiang</div>
                 <div class="row">
                 <i class="icon email-icon"></i>
                 <i class="icon pdf-icon"></i>
@@ -19,7 +19,10 @@
             </article>
             <article class="col-4" >
                 <div class="row justify-content-middle">
-                    <p class="py-2 ml-5" id="contact">Contact</p>
+                    <button class="py-2" id="contact">
+                        Contact
+                    </button>
+                    
                 </div> 
             
             </article>
@@ -81,12 +84,13 @@
 <div class="container-fluid" id="project_section">
     <!-- <div class="container"> -->
     <section class="row ml-5" id="project"><header>Projects</header></section>
-    <div class="row ml-5 mt-3">
+    <div class="row align-items-center ml-5 mt-3" style="height: 50%;">
         
         <!-- <div class="container" id="card">
-
+           
         </div> -->
-        <div class="card mx-auto" id="project_card">
+        <div class="col ">
+            <div class="card" id="project_card">
             <div class="row justify-content-middle no-gutters">
               <div class="col-md-8">
                 <div class="card-body p-0  m-0 ml-1">
@@ -95,48 +99,71 @@
                   <p class="card-text m-0" id="project_text">build a simple shell that implements Semaphores | Threads | Built-in System Call | External Calls </p>
                 </div>
               </div>
-
               <div class="col-md-4">
                 <img id="project_img" src="/assets/jakub-dziubak-XtUd5SiX464-unsplash.jpg" class="card-img" alt="...">
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="card mx-auto" style="color: black; background-color: #C7DCDA;width: 386px; height: 120px;">
+        <div class="col mx-auto">
+            <div class="card " style="color: black; background-color: #C7DCDA;width: 386px; height: 120px;">
             <div class="row justify-content-middle no-gutters">
-              <div class="col-md-8">
+            <div class="col-md-8">
                 <div class="card-body p-0  m-0">
-                  <p class="m-0" id="project_title">Website</p>
-                  <p class="card-text m-0" id="project_header"><u>Angular 9 | Node | REST</u></p>
-                  <p class="card-text m-0" id="project_text">Build a MongoDB RESTFUL api and Front-Facing Website Using the Angular 9 framework </p>
+                <p class="m-0" id="project_title">Website</p>
+                <p class="card-text m-0" id="project_header"><u>Angular 9 | Node | REST</u></p>
+                <p class="card-text m-0" id="project_text">Build a MongoDB RESTFUL api and Front-Facing Website Using the Angular 9 framework </p>
                 </div>
-              </div>
-
-              <div class="col-md-4 my-2 ">
-                <img id="project_img" src="/assets/jakub-dziubak-XtUd5SiX464-unsplash.jpg" class="card-img" alt="...">
-              </div>
             </div>
-          </div>
-
-       
+            <div class="col-md-4 my-2 ">
+                <img id="project_img" src="/assets/jakub-dziubak-XtUd5SiX464-unsplash.jpg" class="card-img" alt="...">
+            </div>
+            </div>
+        </div>
+        </div>
+         
 
     </div>
 <!-- </div> -->
 </div>
 
 
-<div class="container-fluid">
-    <div class="row" id="about_me">
-        <div class="col-6" id="about_section_title"><header>About Me</header></div>
-        <div class="col-6">Description</div>
+<div class="container-fluid" id="about_section">
+    <div class="row  " id="about_me">
+        <!-- <div class="col-6" id="about_section_title"><header>About Me</header></div> -->
+        <div class="col-6 p-0">
+            <header id="about_section_title">About Me</header>
+        </div>
+            
+        
+        <article class="col-6" id="about_section_description" >Being a part of the Filipino Student Association at University of Delaware, 
+            I grew both in maturity and in skill that now drives me to constantly grow. From this growth I
+            have found a passion in Computer Science. I enjoy the creative aspect of Front-end Development, 
+            the challenges in Back-end algorithms, and the collobrative nature of Software Engineers. I am 
+            eager to learn the ever growing technologies and hope to implement them in future projects in 
+            my career. 
+         </article>
+        
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid py-5" id="phil_section">
     <div class="row">
         <div class="col-12">
             <div class="row ">
-                Philosphy quote
+                <div class="col-8 align-items-center">
+                    <article id="phil-quote">
+                        "Don’t you see the plants, the birds, the ants and spiders and bees 
+                        going about their individual tasks, putting the world in order, as 
+                        best they can? And you’re not willing to do your job as a human being? 
+                        Why aren’t you running to do what your nature demands?""
+                    </article>
+                    <header id="phil-author">
+                        - Marcus Aurelius
+                    </header>
+                </div>
+               
             </div>
         </div>
     </div>
@@ -144,20 +171,23 @@
 </div>
 
 
-    <footer>
+    <footer class="footer">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-5">
-                    <div class="row">
+            <div class="row px-2 pt-3">
+                <div class="col-5 ">
+                    <div class="row" style=" position:absolute;left:0 ;bottom:0;">
                         <i class="icon email-icon"></i>
                         <i class="icon pdf-icon"></i>
                         <i class="icon linkedin-icon"></i>
                         <i class="icon git-icon"></i>
                     </div>
                 </div>
-                <div class="col-7 align-items-end" id="name"> Zendelle Badiang</div>
+                <div class="col-7" > 
+                    <div class="row">
+                        <p id="footer_name"> Zendelle Badiang</p>
+                    </div>
+                    
+                </div>
             </div>
         </div>
-        </footer> 
-
-
+    </footer> 

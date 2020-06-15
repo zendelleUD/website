@@ -46,7 +46,7 @@
 
 
 #top{
-    height: 30vh;
+    height: 40vh;
 }
 
 #top_content{
@@ -72,9 +72,9 @@
 }
 
 
-#name{
+#top #name{
     font-family: Abel;
-    font-size: 42px;
+    font-size: 80px;
 }
 
 #contact{
@@ -89,6 +89,15 @@
     color: black;
     background-color: #C3E9E4;
 }
+
+
+
+#contact:hover{
+    color: #C3E9E4;
+    background-color: white;
+    border-radius: 4rem;
+}
+
 
 #middle{
     height: 30vh;
@@ -131,6 +140,9 @@ header, #skills{
 
 }
 
+
+
+
 #project, header{
     font-family: Poppins-Regular;
     font-size: 27px;
@@ -166,13 +178,57 @@ header, #skills{
 }
 
 
-#about_section_title{
-    font-family: Abel;
-    font-size: 50px;
+#about_section{
+    height: 30vh;
 }
 
 
-footer ,#name{
+#about_section_title {
+    font-family: Abel;
+    font-size: 70px;
+
+    position: absolute;
+    bottom: 0;
+    top:0;
+    right: 0;
+
+
+    transform: rotate(-90deg);
+
+}
+
+#about_section_description{
+    font-family: Poppins-Regular;
+    font-size: 20px;
+}
+
+
+#phil_section{
+    
+    text-align: center;
+}
+
+#phil-author{
+    font-family: Abel;
+font-size: 40px;
+line-height: 51px;
+/* text-align:center; */
+}
+
+#phil-quote{
+    font-family: Poppins-Regular;
+
+font-size: 16px;
+line-height: 24px;
+}
+
+
+
+#footer_name{
     font-family: Abel;
     font-size: 38px;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
